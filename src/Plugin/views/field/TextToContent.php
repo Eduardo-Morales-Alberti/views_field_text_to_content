@@ -91,7 +91,7 @@ class TextToContent extends FieldPluginBase {
     unset($form['alter']['alter_text']);
     unset($form['alter']['text']['#states']);
     unset($form['alter']['help']['#states']);
-    // @TODO Add list to show input
+
     $form['alter']['text']['#title'] = $this->t('Text to content');
     $form['alter']['text']['#type'] = 'textfield';
    $form['alter']['text']['#description'] =  $this->t('It You may enter data from this view as per the "Replacement patterns" below.');
@@ -103,7 +103,6 @@ class TextToContent extends FieldPluginBase {
    * {@inheritdoc}
    */
   public function render(ResultRow $values) {
-
     $alter = $this->options['alter'];
     $tokens = $this->getRenderTokens($alter);
     $text = $this->viewsTokenReplace($alter['text'], $tokens);
