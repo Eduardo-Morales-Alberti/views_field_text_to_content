@@ -1,0 +1,32 @@
+{
+  "name": "drupal/views_field_to_content",
+  "description": "Provides new field to show a link to a content, finding it by title using an existing field value",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "require": {},
+  "homepage": "https://drupal.org/project/views_field_to_content",
+  "keywords": [
+    "Drupal",
+    "Views",
+    "Views field"
+  ],
+  "authors": [
+    {
+      "name": "Eduardo Morales",
+      "homepage": "https://www.drupal.org/u/eduardo-morales",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "docs": "https://www.drupal.org/project/views_field_to_content",
+    "issues": "https://www.drupal.org/project/issues/views_field_to_content?version=8.x",
+    "irc": "irc://irc.freenode.org/drupal-contribute",
+    "source": "https://cgit.drupalcode.org/views_field_to_content"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url":  "https://packages.drupal.org/8"
+    }
+  ]
+}
