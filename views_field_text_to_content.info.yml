@@ -2,5 +2,6 @@ name: 'views_field_to_content'
 type: module
 description: 'Provides new field to show a link to a content, finding it by title using an existing field value'
 package: 'Views'
+core: 8.x
 dependencies:
   - drupal:views

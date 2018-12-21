@@ -1,5 +1,5 @@
 {
-  "name": "drupal/views_field_to_content",
+  "name": "drupal/views_field_text_to_content",
   "description": "Provides new field to show a link to a content, finding it by title using an existing field value",
   "type": "drupal-module",
   "license": "GPL-2.0+",
